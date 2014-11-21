@@ -13,6 +13,8 @@
 		8940AE501A1FE55E00853734 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8940AE4F1A1FE55E00853734 /* Images.xcassets */; };
 		8940AE531A1FE55E00853734 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8940AE511A1FE55E00853734 /* LaunchScreen.xib */; };
 		8940AE5F1A1FE55E00853734 /* notes2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8940AE5E1A1FE55E00853734 /* notes2Tests.swift */; };
+		8940AE691A1FE64E00853734 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8940AE681A1FE64E00853734 /* NotesTableViewController.swift */; };
+		8940AE6B1A1FE7EC00853734 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8940AE6A1A1FE7EC00853734 /* AddNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8940AE581A1FE55E00853734 /* notes2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notes2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8940AE5D1A1FE55E00853734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8940AE5E1A1FE55E00853734 /* notes2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notes2Tests.swift; sourceTree = "<group>"; };
+		8940AE681A1FE64E00853734 /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		8940AE6A1A1FE7EC00853734 /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				8940AE4F1A1FE55E00853734 /* Images.xcassets */,
 				8940AE511A1FE55E00853734 /* LaunchScreen.xib */,
 				8940AE461A1FE55E00853734 /* Supporting Files */,
+				8940AE681A1FE64E00853734 /* NotesTableViewController.swift */,
+				8940AE6A1A1FE7EC00853734 /* AddNoteViewController.swift */,
 			);
 			path = notes2;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8940AE6B1A1FE7EC00853734 /* AddNoteViewController.swift in Sources */,
 				8940AE4B1A1FE55E00853734 /* ViewController.swift in Sources */,
 				8940AE491A1FE55E00853734 /* AppDelegate.swift in Sources */,
+				8940AE691A1FE64E00853734 /* NotesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
